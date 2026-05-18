@@ -858,6 +858,4 @@ else{
 
 
 
-    </script>
-</body>
-</html>
+    
