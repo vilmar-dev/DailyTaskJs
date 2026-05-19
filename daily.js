@@ -815,6 +815,15 @@ else{
         }
 console.log('countdown finished');
 
+//Day 12 Task 2
+//Make a program that will stop at zero
+
+let i=10;
+ while(i>=0){
+    console.log(i);
+    i--;
+ }
+ console.log('Countdown finished');
 
     
 
