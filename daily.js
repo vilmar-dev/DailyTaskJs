@@ -837,6 +837,18 @@ let i=10;
             console.log(i);
             i++;
         }
+
+//Day 12 Task 6
+//Make a program that will skip even numbers
+let i=1;
+        while(i<=10){
+            if(i%2 ===0){
+                i++;
+                continue;
+            }
+            console.log(i);
+            i++;
+        }
     
 
    
