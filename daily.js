@@ -849,7 +849,22 @@ let i=1;
             console.log(i);
             i++;
         }
-    
+    //Day 12 Task 7
+    //Make a program that will skip a odd number
+
+    let i=1
+        while(i<=10){
+            
+            if(i%2 ===1){
+                i++;
+                continue
+                console.log(i);
+
+            }
+            console.log(i);
+            i++;
+            
+        }
 
    
 
