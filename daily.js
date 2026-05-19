@@ -958,6 +958,40 @@ let i=1;
 
    subtract();
 
+   //Day 13 Task 4
+   //Make a program that will create a multiply function
+   
+        function multiply(num1,num2){
+            let mul= num1*num2;
+            console.log(mul);
+
+        }
+        multiply(10,5);
+
+
+
+    //Day 13 Task 5
+    //Make a program that will create a divide function
+    function divide(num1,num2){
+    let divide=num1/num2;
+
+    console.log(divide);
+}
+divide(10,20);
+
+
+
+   //Day 13 Task 6
+   //Make a program that will pass the value
+
+   function Showname(name){
+    console.log(name);
+}
+Showname('vilmar');
+
+
+
+
 
 
    
