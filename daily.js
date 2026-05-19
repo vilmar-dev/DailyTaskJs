@@ -815,16 +815,28 @@ else{
         }
 console.log('countdown finished');
 
-//Day 12 Task 2
+//Day 12 Task 2, Task 3, Task 4
 //Make a program that will stop at zero
+//Make a program that will display a number
+//Make a program that will display done
+
+
 
 let i=10;
  while(i>=0){
     console.log(i);
     i--;
  }
- console.log('Countdown finished');
+ console.log('Countdown finished done');
 
+ //Day 12 Task 5
+ //Make a program that will start another number
+
+ let i=20;
+        while(i<=30){
+            console.log(i);
+            i++;
+        }
     
 
    
