@@ -806,17 +806,14 @@ else{
 
 
     //Day 12 Task 1
-    //Make a program that will countdown from 1 to 10
+    //Make a program that will count 1-10
 
-    let i=10;
-
-while(i>=1){
-    console.log(i);
-    
-
-    i--;
-}
-       console.log('Countdown finished')
+    let i=1;
+        while(i<=10){
+            console.log(i);
+            i++;
+        }
+console.log('countdown finished');
 
 
     
@@ -875,6 +872,4 @@ while(i>=1){
 
 
 
-    </script>
-</body>
-</html>
+    
