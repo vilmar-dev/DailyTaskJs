@@ -981,16 +981,48 @@ divide(10,20);
 
 
 
-   //Day 13 Task 6
+   //Day 13 Task 6,Task 7,Task 8
    //Make a program that will pass the value
-
-   function Showname(name){
-    console.log(name);
-}
-Showname('vilmar');
+   //Make a program that will display the value
+   //Make a program that will display and return the value
 
 
 
+   
+   
+   function Myname(name){
+    return name;
+   }
+   console.log(Myname("Vilmar"));
+
+
+//Day 13 Task 9
+//Make a program that will call functions multiple times
+
+//Day 13 Task 10
+//Make a program that will create a one function for all 
+function calculator(num1,num2,operation){
+            if(operation ==="add"){
+                return num1+num2;
+            }
+            else if (operation ==="sub"){
+                return num1-num2;
+
+            }else if (operation==="multiply"){
+                return num1*num2;
+
+            }else if(operation==="divide"){
+                return num1/num2;
+            }
+            
+        }
+            console.log(calculator(10,30,"add"));
+            console.log(calculator(10,30,"sub"));
+            console.log(calculator(10,30,"multiply"));
+            console.log(calculator(10,30,"divide"));
+
+
+            
 
 
 
