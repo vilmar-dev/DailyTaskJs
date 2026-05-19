@@ -866,6 +866,69 @@ let i=1;
             
         }
 
+        //Day 12 Task 8
+        //Make a program that will count  even number
+
+         let i=1;
+            while(i<=10){
+                if(i%2 ===1){
+                    i++;
+                
+                    
+                    continue;
+
+                }
+                console.log(i);
+                i++;
+            }
+
+
+    //Day 12 Task 9 
+    //Make a program that will print odd number
+
+    
+                 let i=1;
+
+                 while(i<=10){
+                    if(i%2 ===0){
+                        i++;
+                        continue
+
+                    }
+                    console.log(i);
+                    i++;
+                 }
+
+
+        //Day 12 Task 10
+        //Make a program that will display clearly
+        //odd and even
+
+        console.log('Print Even number');
+        let i=1;
+            while(i<=10){
+                if(i%2 ===1){
+                    i++;
+                    continue;
+                }
+                console.log(i);
+                i++;
+            }
+
+            console.log('Print Odd number');
+
+           let a=20;
+                while(a<=30){
+                    if(a%2 ===0){
+                        a++;
+                        continue;
+                    }
+                    console.log(a);
+                    a++;
+                } 
+            
+
+
    
 
 
