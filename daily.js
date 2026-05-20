@@ -1110,6 +1110,30 @@ function calculator(num1,num2,operation){
     //Make a program that will reset count
 
 
+     <button id="bot">Pindot mo</button>
+    <button id="reset">Reset count</button>
+    <p id="clicked">Click: </p>
+    
+    
+        let count=0;
+        let resets=0;
+        let button=document.getElementById("bot");
+        let text=document.getElementById("clicked");
+        let reset=document.getElementById("reset");
+
+        button.addEventListener("click",function(){
+            count++;
+
+            text.textContent="Click: "+count
+        });
+
+        reset.addEventListener("click",function(){
+            text.textContent="Click:0"
+                
+        });
+        
+
+
 
 
 
