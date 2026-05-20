@@ -7,15 +7,14 @@
     <link rel="stylesheet" href="praktisan.css">
 </head>
 <body>
+<button id="greet">Greet me</button>
+    
     
     <script>
-       let grade=(parseInt(prompt('What is your grade?')));
-        if(grade<=74){
-            alert('The '+grade+' is considered as fail');
-            
-        }else{
-            alert("The "+grade+' is considered as pass');
-        }
+       let button=document.getElementById("greet");
+        button.addEventListener("click",function(){
+            button.textContent="Hello"
+        })
         
     </script>
 

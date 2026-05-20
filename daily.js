@@ -1037,13 +1037,58 @@ function calculator(num1,num2,operation){
 
     //Day 14 Task 4
     //Make a program that will display pass or fail
-     let grade=(parseInt(prompt('What is your grade?')));
+        let grade=(parseInt(prompt('What is your grade?')));
+            if(grade<=74){
+                alert('The '+grade+' is considered as fail');
+                
+            }else{
+                alert("The "+grade+' is considered as pass');
+            }
+    //Day 14 Task 5 ,Task 6, Task 7,Task 8,Task 9,Task 10
+    //Make a program that will handle invalid input
+    //Make a program that will improve grading
+    //Make a program that will test the value
+    //Make a program that will display remarks
+    //Make a program that will format output
+    //Make a program that will combine all logic
+     let grade=prompt('What is your grade');
+        if(isNaN(grade) || grade==''){
+            alert('Invalid input pls enter numeric grade ony');
+        } else{
+            
         if(grade<=74){
             alert('The '+grade+' is considered as fail');
             
         }else{
             alert("The "+grade+' is considered as pass');
         }
+        }
+
+        
+
+
+
+        //Week 3 (DOM)
+        //Day 13 Task 1,Task 2,Task 3
+        //Make a program that will create a button 
+        //Make a program that will detect a click
+        //Make a program that will display text
+        let button=document.getElementById("bot");
+        button.addEventListener("click",function(){
+            alert("asdsd")
+        });
+
+
+        //Day 13 Task 4
+        //Task Make a program that will change button text
+        let  button=document.getElementById("greet");
+            button.addEventListener("click",function(){
+                button.textContent="Button Clicked!"
+            });
+
+
+
+
         
 
 
