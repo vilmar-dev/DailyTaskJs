@@ -8,17 +8,21 @@
 </head>
 <body>
 
-    <button id="bot">buton</button>
-    <p id="para">Old Message</p>
-
+    <button id="bot">Start</button>
+    
+    <p id="para"> </p>
 
     <script>
         let button=document.getElementById("bot");
         let text=document.getElementById("para");
 
         button.addEventListener("click",function(){
-            text.textContent="NEw Text!";
+            let name=prompt("What is your name?");
+            let hobby=prompt("What is your hobby?");
+
+            text.textContent="Hello "+name+" its good to know  your name and by that i know your hobby is "+hobby
         });
+        
 
 
     </script>

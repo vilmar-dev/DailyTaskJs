@@ -1230,8 +1230,54 @@ function calculator(num1,num2,operation){
             text.textContent="NEw Text!";
         });
 
-        
+    //Day 16 Task 9
+    //Make a program that will clear a content
+     <button id="bot">buton</button>
+    <p id="para">Old Message</p>
 
+
+    
+        let button=document.getElementById("bot");
+        let text=document.getElementById("para");
+
+        button.addEventListener("click",function(){
+            text.textContent=" ";
+        });
+
+
+
+//Day 16 Task 10
+//Make a program that will display UI
+         <button id="bot">buton</button>
+    <p id="para"></p>
+
+
+    
+        let button=document.getElementById("bot");
+        let text=document.getElementById("para");
+
+        button.addEventListener("click",function(){
+            text.textContent=" surprise! ";
+        });
+
+
+//Day 17 Task 1
+//Make a program that will create a paragraph
+
+ <button id="bot">Start</button>
+    
+    <p id="para"> </p>
+
+    
+        let button=document.getElementById("bot");
+        let text=document.getElementById("para");
+
+        button.addEventListener("click",function(){
+            let name=prompt("What is your name?");
+            let hobby=prompt("What is your hobby?");
+
+            text.textContent="Hello "+name+" its good to know  your name and by that i know your hobby is "+hobby
+        }); 
 
 
 
