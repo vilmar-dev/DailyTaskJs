@@ -8,23 +8,19 @@
 </head>
 <body>
 
-    <button id="bot">Button</button>
+    <button id="bot">buton</button>
+    <p id="para">Old Message</p>
 
-    <p id="para">paragrap</p>
+
+    <script>
+        let button=document.getElementById("bot");
+        let text=document.getElementById("para");
+
+        button.addEventListener("click",function(){
+            text.textContent="NEw Text!";
+        });
 
 
-    <script> 
-    let button=document.getElementById("bot");
-    let text=document.getElementById("para");
-     button.addEventListener("click",function(){
-        if(text){
-            alert("element exist");
-        }
-        else{
-            alert("element does not exist");
-        }
-     });
-        
     </script>
 
 </body>

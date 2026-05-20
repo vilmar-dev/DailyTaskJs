@@ -1194,7 +1194,7 @@ function calculator(num1,num2,operation){
         });
         
         
-        //Day 16 Task
+        //Day 16 Task 6
         //Make a program that will test the value
         <button id="bot">Button</button>
 
@@ -1206,12 +1206,30 @@ function calculator(num1,num2,operation){
     let text=document.getElementById("para");
      button.addEventListener("click",function(){
         if(text){
-            alert("element exist");
+            alert( "element exist");
         }
         else{
             alert("element does not exist");
         }
      });
+
+
+     //Day 16 Task 7, Task 8
+     //Make a program that will update a content
+     //Make a program that will replace a content
+
+     <button id="bot">buton</button>
+    <p id="para">Old Message</p>
+
+
+    
+        let button=document.getElementById("bot");
+        let text=document.getElementById("para");
+
+        button.addEventListener("click",function(){
+            text.textContent="NEw Text!";
+        });
+
         
 
 
