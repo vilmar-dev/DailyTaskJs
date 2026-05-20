@@ -1069,7 +1069,7 @@ function calculator(num1,num2,operation){
 
 
         //Week 3 (DOM)
-        //Day 13 Task 1,Task 2,Task 3
+        //Day 15 Task 1,Task 2,Task 3
         //Make a program that will create a button 
         //Make a program that will detect a click
         //Make a program that will display text
@@ -1079,7 +1079,7 @@ function calculator(num1,num2,operation){
         });
 
 
-        //Day 13 Task 4
+        //Day 15 Task 4
         //Task Make a program that will change button text
         let  button=document.getElementById("greet");
             button.addEventListener("click",function(){
@@ -1088,7 +1088,7 @@ function calculator(num1,num2,operation){
 
 
 
-    //Day 13 Task 5,Task 6
+    //Day 15 Task 5,Task 6
     //Make a program that will count clicks
     //Make a program that will display counts
     <button id="bot">Pindot mo</button>
@@ -1106,7 +1106,7 @@ function calculator(num1,num2,operation){
         });
 
 
-    //Day 13 Task 7
+    //Day 15 Task 7
     //Make a program that will reset count
 
 
@@ -1132,12 +1132,14 @@ function calculator(num1,num2,operation){
                 
         });
 
-        //Day 13 Task 8
+        //Day 15 Task 8,Task 9,Task 10
         //Make a program that will update ui
+        //Make a program that will improve the button
+        //Make a program that will  display clearly
          <button id="change">Change Background Color</button>
     <p id="msg">Hello World!</p>
     
-    <script>
+    
         let button=document.getElementById("change");
         let msg=document.getElementById("msg");
 
@@ -1146,6 +1148,48 @@ function calculator(num1,num2,operation){
             msg.style.color="red";
             msg.style.fontsize="24px";
 
+        });
+
+
+    //Day 16 Task 1,Task 2
+    //Make a program that will select by id
+    //Make a program that will change text
+     <button id="bot">Button</button>
+
+    <p id="para">HEllo world</p>
+    
+        let button=document.getElementById("bot");
+        let text=document.getElementById("para");
+
+        button.addEventListener("click",function(){
+            text.textContent="Hello user";
+        })
+        
+
+
+    //Day 16 Task 3,Task 4,Task5
+    // Make a program that will select by class
+    // Make a program that will change multiple elements
+    //Make a program that will change style
+
+
+        <div class="paragraph">  
+    <p class="para">HEllo world</p>
+    <p class="helo"> Heelo sir</p>
+    <p class="halu">Heelo everyone</p>
+
+     </div>
+    
+        let button=document.getElementById("bot");
+        let all=document.getElementsByClassName("paragraph")[0];
+        let text=document.getElementsByClassName("para")[0];
+        let ted=document.getElementsByClassName("helo")[0];
+        let tex=document.getElementsByClassName("halu")[0];
+
+        button.addEventListener("click",function(){
+            text.textContent="Hello user";
+            ted.style.color="red";
+            tex.style.fontSize="30px";
         });
         
         

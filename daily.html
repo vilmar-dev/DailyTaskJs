@@ -8,19 +8,28 @@
 </head>
 <body>
 
-    <button id="change">Change Background Color</button>
-    <p id="msg">Hello World!</p>
-    
+    <button id="bot">Button</button>
+
+
+    <div class="paragraph">  
+    <p class="para">HEllo world</p>
+    <p class="helo"> Heelo sir</p>
+    <p class="halu">Heelo everyone</p>
+
+     </div>
     <script>
-        let button=document.getElementById("change");
-        let msg=document.getElementById("msg");
+        let button=document.getElementById("bot");
+        let all=document.getElementsByClassName("paragraph")[0];
+        let text=document.getElementsByClassName("para")[0];
+        let ted=document.getElementsByClassName("helo")[0];
+        let tex=document.getElementsByClassName("halu")[0];
 
         button.addEventListener("click",function(){
-            msg.textContent="Ui Updated";
-            msg.style.color="red";
-            msg.style.fontsize="24px";
-
+            text.textContent="Hello user";
+            ted.style.color="red";
+            tex.style.fontSize="30px";
         });
+        
         
     </script>
 
