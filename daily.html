@@ -9,27 +9,13 @@
 <body>
     
     <script>
-        
-        
-        function calculator(num1,num2,operation){
-            if(operation ==="add"){
-                return num1+num2;
-            }
-            else if (operation ==="sub"){
-                return num1-num2;
-
-            }else if (operation==="multiply"){
-                return num1*num2;
-
-            }else if(operation==="divide"){
-                return num1/num2;
-            }
+       let grade=(parseInt(prompt('What is your grade?')));
+        if(grade<=74){
+            alert('The '+grade+' is considered as fail');
             
+        }else{
+            alert("The "+grade+' is considered as pass');
         }
-            console.log(calculator(10,30,"add"));
-            console.log(calculator(10,30,"sub"));
-            console.log(calculator(10,30,"multiply"));
-            console.log(calculator(10,30,"divide"));
         
     </script>
 

@@ -1022,7 +1022,29 @@ function calculator(num1,num2,operation){
             console.log(calculator(10,30,"divide"));
 
 
+    //Day 14 Task 1 
+    //Make a program that will ask for score
+    let score=prompt('what is your score?');
+
+    //Day 14 Task 2
+    //Make a program that will assign a grade
+    let grade=100;
+
+    //Day 14 Task3
+    //Make a program that will display grade
+    let grade=100;
+    alert('Grade is '+grade);
+
+    //Day 14 Task 4
+    //Make a program that will display pass or fail
+     let grade=(parseInt(prompt('What is your grade?')));
+        if(grade<=74){
+            alert('The '+grade+' is considered as fail');
             
+        }else{
+            alert("The "+grade+' is considered as pass');
+        }
+        
 
 
 
