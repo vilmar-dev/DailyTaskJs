@@ -8,30 +8,19 @@
 </head>
 <body>
 
-    <button id="bot">Pindot mo</button>
-    <button id="reset">Reset count</button>
-    <p id="clicked">Click: </p>
+    <button id="change">Change Background Color</button>
+    <p id="msg">Hello World!</p>
     
     <script>
-        let count=0;
-        let resets=0;
-        let button=document.getElementById("bot");
-        let text=document.getElementById("clicked");
-        let reset=document.getElementById("reset");
+        let button=document.getElementById("change");
+        let msg=document.getElementById("msg");
 
         button.addEventListener("click",function(){
-            count++;
+            msg.textContent="Ui Updated";
+            msg.style.color="red";
+            msg.style.fontsize="24px";
 
-            text.textContent="Click: "+count
         });
-
-        reset.addEventListener("click",function(){
-            text.textContent="Click:0"
-                
-        });
-        
-       
-      
         
     </script>
 

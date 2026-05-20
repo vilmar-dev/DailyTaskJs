@@ -1131,6 +1131,23 @@ function calculator(num1,num2,operation){
             text.textContent="Click:0"
                 
         });
+
+        //Day 13 Task 8
+        //Make a program that will update ui
+         <button id="change">Change Background Color</button>
+    <p id="msg">Hello World!</p>
+    
+    <script>
+        let button=document.getElementById("change");
+        let msg=document.getElementById("msg");
+
+        button.addEventListener("click",function(){
+            msg.textContent="Ui Updated";
+            msg.style.color="red";
+            msg.style.fontsize="24px";
+
+        });
+        
         
 
 
