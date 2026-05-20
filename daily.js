@@ -1279,8 +1279,39 @@ function calculator(num1,num2,operation){
             text.textContent="Hello "+name+" its good to know  your name and by that i know your hobby is "+hobby
         }); 
 
+    //Day 17 Task 2
+    //Make a program that will change a text
+    <button id="bot">Start</button>
+    
+    <p id="para">Meesage goes here </p>
 
+    
+        let button=document.getElementById("bot");
+        let text=document.getElementById("para");
 
+        button.addEventListener("click",function(){
+            let name=prompt("What is your name?");
+            let hobby=prompt("What is your hobby?");
+
+            text.textContent="Hello "+name+" its good to know  your name and by that i know your hobby is "+hobby
+        }); 
+        
+
+//Day 17 Task 3
+//Make a program that will add content
+<button id="bot">Start</button>
+    
+    <p id="para">Add content </p>
+
+    
+        let button=document.getElementById("bot");
+        let text=document.getElementById("para");
+
+        button.addEventListener("click",function(){
+            
+            text.textContent=text.textContent+" this is added";
+
+        }); 
         
 
 

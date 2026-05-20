@@ -10,18 +10,17 @@
 
     <button id="bot">Start</button>
     
-    <p id="para"> </p>
+    <p id="para">Add content </p>
 
     <script>
         let button=document.getElementById("bot");
         let text=document.getElementById("para");
 
         button.addEventListener("click",function(){
-            let name=prompt("What is your name?");
-            let hobby=prompt("What is your hobby?");
+            
+            text.textContent=text.textContent+" this is added";
 
-            text.textContent="Hello "+name+" its good to know  your name and by that i know your hobby is "+hobby
-        });
+        }); 
         
 
 
