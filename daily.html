@@ -10,26 +10,20 @@
 
     <button id="bot">Button</button>
 
+    <p id="para">paragrap</p>
 
-    <div class="paragraph">  
-    <p class="para">HEllo world</p>
-    <p class="helo"> Heelo sir</p>
-    <p class="halu">Heelo everyone</p>
 
-     </div>
-    <script>
-        let button=document.getElementById("bot");
-        let all=document.getElementsByClassName("paragraph")[0];
-        let text=document.getElementsByClassName("para")[0];
-        let ted=document.getElementsByClassName("helo")[0];
-        let tex=document.getElementsByClassName("halu")[0];
-
-        button.addEventListener("click",function(){
-            text.textContent="Hello user";
-            ted.style.color="red";
-            tex.style.fontSize="30px";
-        });
-        
+    <script> 
+    let button=document.getElementById("bot");
+    let text=document.getElementById("para");
+     button.addEventListener("click",function(){
+        if(text){
+            alert("element exist");
+        }
+        else{
+            alert("element does not exist");
+        }
+     });
         
     </script>
 

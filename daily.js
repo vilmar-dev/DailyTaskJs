@@ -1163,6 +1163,7 @@ function calculator(num1,num2,operation){
 
         button.addEventListener("click",function(){
             text.textContent="Hello user";
+  
         })
         
 
@@ -1193,7 +1194,25 @@ function calculator(num1,num2,operation){
         });
         
         
+        //Day 16 Task
+        //Make a program that will test the value
+        <button id="bot">Button</button>
 
+    <p id="para">paragrap</p>
+
+
+    
+    let button=document.getElementById("bot");
+    let text=document.getElementById("para");
+     button.addEventListener("click",function(){
+        if(text){
+            alert("element exist");
+        }
+        else{
+            alert("element does not exist");
+        }
+     });
+        
 
 
 
