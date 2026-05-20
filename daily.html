@@ -7,14 +7,22 @@
     <link rel="stylesheet" href="praktisan.css">
 </head>
 <body>
-<button id="greet">Greet me</button>
-    
+
+    <button id="bot">Pindot mo</button>
+    <p id="clicked">Click: </p>
     
     <script>
-       let button=document.getElementById("greet");
+        let count=0;
+        let button=document.getElementById("bot");
+        let text=document.getElementById("clicked");
+
         button.addEventListener("click",function(){
-            button.textContent="Hello"
-        })
+            count++;
+
+            text.textContent="Click: "+count
+        });
+
+      
         
     </script>
 

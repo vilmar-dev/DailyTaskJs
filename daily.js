@@ -1088,6 +1088,30 @@ function calculator(num1,num2,operation){
 
 
 
+    //Day 13 Task 5,Task 6
+    //Make a program that will count clicks
+    //Make a program that will display counts
+    <button id="bot">Pindot mo</button>
+    <p id="clicked">Click: </p>
+    
+    
+        let count=0;
+        let button=document.getElementById("bot");
+        let text=document.getElementById("clicked");
+
+        button.addEventListener("click",function(){
+            count++;
+
+            text.textContent="Click: "+count
+        });
+
+
+    //Day 13 Task 7
+    //Make a program that will reset count
+
+
+
+
 
         
 
