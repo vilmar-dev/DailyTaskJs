@@ -13,14 +13,12 @@
     <p id="para">Add content </p>
 
     <script>
-        let button=document.getElementById("bot");
-        let text=document.getElementById("para");
+        let button = document.getElementById("bot");
+        let text = document.getElementById("para");
+            button.addEventListener("click",function(){
+                text.textContent=" "
 
-        button.addEventListener("click",function(){
-            
-            text.textContent=text.textContent+" this is added";
-
-        }); 
+            });
         
 
 

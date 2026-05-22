@@ -1297,8 +1297,9 @@ function calculator(num1,num2,operation){
         }); 
         
 
-//Day 17 Task 3
+//Day 17 Task 3 Task 4
 //Make a program that will add content
+//Make a program that will append content
 <button id="bot">Start</button>
     
     <p id="para">Add content </p>
@@ -1312,7 +1313,25 @@ function calculator(num1,num2,operation){
             text.textContent=text.textContent+" this is added";
 
         }); 
+
         
+        //Day 17 Task 5
+        //Make a program that will remove content
+
+          <button id="bot">Start</button>
+    
+    <p id="para">Add content </p>
+
+    
+        let button = document.getElementById("bot");
+        let text = document.getElementById("para");
+            button.addEventListener("click",function(){
+                text.textContent=" "
+
+            });
+
+        
+            
 
 
 
