@@ -13,13 +13,17 @@
     <p id="para">Add content </p>
 
     <script>
-        let button = document.getElementById("bot");
-        let text = document.getElementById("para");
+        let button=document.getElementById("bot");
             button.addEventListener("click",function(){
-                text.textContent=" "
+                let age=prompt('Enter age');
+                if(age<=17){
+                    alert('Minor');
+                }else{
+                    alert('Adult');
+                }
+                
 
             });
-        
 
 
     </script>

@@ -1330,8 +1330,47 @@ function calculator(num1,num2,operation){
 
             });
 
+
+
+        //Day 17 Task 6
+        //Make a program that will change content
+        <button id="bot">Start</button>
+    
+    <p id="para">Add content </p>
+
+    
+        let button = document.getElementById("bot");
+        let text = document.getElementById("para");
+            button.addEventListener("click",function(){
+                text.textContent=" Content Changes"
+
+            });
+
         
-            
+
+        //Day 17 Task 7
+        //Make a program that will test the value
+
+         <button id="bot">Start</button>
+    
+    <p id="para">Add content </p>
+
+    
+        let button=document.getElementById("bot");
+            button.addEventListener("click",function(){
+                let age=prompt('Enter age');
+                if(age<=17){
+                    alert('Minor');
+                }else{
+                    alert('Adult');
+                }
+                
+
+            });
+
+
+        
+
 
 
 
