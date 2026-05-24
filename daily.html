@@ -9,13 +9,19 @@
 <body>
 
     <button id="bot">Start</button>
+    <button id="bot2">Reset Color</button>
     <p id="para">This is A Text</p>
     
     
 
     <script>
        let button=document.getElementById("bot");
+       let boton=document.getElementById("bot2");
        let isDark=false;
+
+       boton.addEventListener("click",function(){
+        document.body.style.backgroundColor="white";
+       })
 
        button.addEventListener("click",function(){
        let red = Math.floor(Math.random() * 256);

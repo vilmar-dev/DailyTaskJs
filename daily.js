@@ -1475,6 +1475,40 @@ function calculator(num1,num2,operation){
        })
 
 
+//Day 18 Task 6 Task 7,Task 8
+//Make a program that will reset color
+// Make  a program that will improve ui
+//Make a program that will test interaction
+
+
+        <button id="bot">Start</button>
+    <button id="bot2">Reset Color</button>
+    <p id="para">This is A Text</p>
+    
+    
+
+    
+       let button=document.getElementById("bot");
+       let boton=document.getElementById("bot2");
+       let isDark=false;
+
+       boton.addEventListener("click",function(){
+        document.body.style.backgroundColor="white";
+       })
+
+       button.addEventListener("click",function(){
+       let red = Math.floor(Math.random() * 256);
+        let green = Math.floor(Math.random() * 256);
+        let blue = Math.floor(Math.random() * 256);
+
+        document.body.style.backgroundColor =
+            "rgb(" + red + "," + green + "," + blue + ")";
+
+       })
+
+
+
+
 
 
    
