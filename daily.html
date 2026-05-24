@@ -4,24 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="praktisan.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
 
     <button id="bot">Start</button>
+    <p id="para">This is A Text</p>
     
-    <p id="para">Add content </p>
+    
 
     <script>
        let button=document.getElementById("bot");
-       let text=document.getElementById("para");
+       let isDark=false;
 
-            button.addEventListener("click",function(){
-                
-                text.textContent="Text is updated dynamically";
+       button.addEventListener("click",function(){
+       let red = Math.floor(Math.random() * 256);
+        let green = Math.floor(Math.random() * 256);
+        let blue = Math.floor(Math.random() * 256);
 
-            });
+        document.body.style.backgroundColor =
+            "rgb(" + red + "," + green + "," + blue + ")";
 
+       })
+
+          
 
     </script>
 

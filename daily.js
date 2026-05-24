@@ -1369,8 +1369,10 @@ function calculator(num1,num2,operation){
             });
 
 
-        //Day 17 TASK 8
+        //Day 17 TASK 8 TASK 9 TASK 10
         //Make a program that will update dynamically
+        //MAKE A PROGRAM THAT WILL DISPLAY RESULT
+        //MAKE A PROGRAM THAT WILL HAVE A CLEAN OUTPUT
 
          <button id="bot">Start</button>
     
@@ -1386,6 +1388,91 @@ function calculator(num1,num2,operation){
 
             });
 
+
+            //Day 18 Task 1,Task 2
+            //Make a program that will create a button
+            //Make a program that will change background
+
+
+             <button id="bot">Start</button>
+    
+    
+
+    
+       let button=document.getElementById("bot");
+       let text=document.getElementById("para");
+
+            button.addEventListener("click",function(){
+                
+                document.body.style.backgroundColor="purple";
+
+            });
+
+
+
+    //Day 18 Task 3
+    //Make a program that will change text color
+
+     <button id="bot">Start</button>
+    <p id="para">This is A Text</p>
+    
+    
+
+    
+       let button=document.getElementById("bot");
+       let text=document.getElementById("para");
+
+            button.addEventListener("click",function(){
+                
+                text.style.color="red";
+
+            });
+
+
+    //Day 18 Task 4
+    //Make a program that will toggle color
+
+            
+    <button id="bot">Start</button>
+    <p id="para">This is A Text</p>
+    
+    
+
+    
+       let button=document.getElementById("bot");
+       let isDark=false;
+
+       button.addEventListener("click",function(){
+        if (isDark==true){
+            document.body.style.backgroundColor="Red";
+            isDark=false;
+
+        }else{
+            document.body.style.backgroundColor="purple";
+            isDark=true;
+        }
+
+       })
+
+
+//Day 18 Task 5
+//Make a program that will use a random color
+
+  <p id="para">This is A Text</p>
+    
+    
+       let button=document.getElementById("bot");
+       let isDark=false;
+
+       button.addEventListener("click",function(){
+       let red = Math.floor(Math.random() * 256);
+        let green = Math.floor(Math.random() * 256);
+        let blue = Math.floor(Math.random() * 256);
+
+        document.body.style.backgroundColor =
+            "rgb(" + red + "," + green + "," + blue + ")";
+
+       })
 
 
 
