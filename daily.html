@@ -8,32 +8,20 @@
 </head>
 <body>
 
-    <button id="bot">Start</button>
-    <button id="bot2">Reset Color</button>
-    <p id="para">This is A Text</p>
-    
+    <button id="bot">Input text</button>
+    <p id="para"> </p>
     
 
     <script>
-       let button=document.getElementById("bot");
-       let boton=document.getElementById("bot2");
-       let isDark=false;
+        let button=document.getElementById("bot");
+        let text=document.getElementById("para");
 
-       boton.addEventListener("click",function(){
-        document.body.style.backgroundColor="white";
-       })
+            button.addEventListener("click",function(){
+                let taxt=prompt("What is your name?");
 
-       button.addEventListener("click",function(){
-       let red = Math.floor(Math.random() * 256);
-        let green = Math.floor(Math.random() * 256);
-        let blue = Math.floor(Math.random() * 256);
-
-        document.body.style.backgroundColor =
-            "rgb(" + red + "," + green + "," + blue + ")";
-
-       })
-
-          
+                text.textContent="Hello welcome to the webpage "+taxt
+            });
+       
 
     </script>
 

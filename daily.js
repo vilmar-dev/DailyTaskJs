@@ -1475,10 +1475,13 @@ function calculator(num1,num2,operation){
        })
 
 
-//Day 18 Task 6 Task 7,Task 8
+//Day 18 Task 6 Task 7,Task 8,Task 9,Task 10
 //Make a program that will reset color
 // Make  a program that will improve ui
 //Make a program that will test interaction
+//Make a program that will display changes
+//Make a program that will clean UI
+
 
 
         <button id="bot">Start</button>
@@ -1505,6 +1508,26 @@ function calculator(num1,num2,operation){
             "rgb(" + red + "," + green + "," + blue + ")";
 
        })
+
+
+//Day 20 Task 1,Task 2
+//Make a program that will create input
+//Make a program that will display input
+
+ <button id="bot">Input text</button>
+    <p id="para"> </p>
+    
+
+    
+        let button=document.getElementById("bot");
+        let text=document.getElementById("para");
+
+            button.addEventListener("click",function(){
+                let taxt=prompt("What is your name?");
+
+                text.textContent="Hello welcome to the webpage "+taxt
+            });
+       
 
 
 
