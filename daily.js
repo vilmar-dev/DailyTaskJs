@@ -1369,7 +1369,23 @@ function calculator(num1,num2,operation){
             });
 
 
-        
+        //Day 17 TASK 8
+        //Make a program that will update dynamically
+
+         <button id="bot">Start</button>
+    
+    <p id="para">Add content </p>
+
+    
+       let button=document.getElementById("bot");
+       let text=document.getElementById("para");
+
+            button.addEventListener("click",function(){
+                
+                text.textContent="Text is updated dynamically";
+
+            });
+
 
 
 
